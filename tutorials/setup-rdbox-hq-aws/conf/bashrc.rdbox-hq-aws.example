@@ -17,8 +17,10 @@ AWS_PEM_FILE="${DIR_AWS}/${AWS_KEY_NAME}.pem"
 ## IAM user : public key file path
 AWS_PUB_FILE="${DIR_AWS}/${AWS_KEY_NAME}.pub"
 ## EC2 AMI(Amazon Machine Image)
-## "ami-06c43a7df16e8213c" Ubuntu Server 16.04 LTS (HVM), SSD Volume Type
-AWS_EC2_IMAGE_ID="ami-06c43a7df16e8213c"
+## Ubuntu Server 16.04 LTS (HVM), SSD Volume Type
+## AWS_EC2_IMAGE_ID="ami-06d9ad3f86032262d"
+## Ubuntu Server 18.04 LTS (HVM), SSD Volume Type
+AWS_EC2_IMAGE_ID="ami-09c81ecf1c2b2ef70"
 ## Instance type
 AWS_EC2_INSTANCE_TYPE_MICRO="t2.micro"
 AWS_EC2_INSTANCE_TYPE_SMALL="t2.small"
